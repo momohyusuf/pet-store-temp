@@ -9,8 +9,10 @@ function Navbar() {
         </h1>
         <div className="flex gap-4 capitalize">
           <NavLink to={"/"}>home</NavLink>
+          <NavLink to={"/store"}>Marketplace</NavLink>
           <NavLink to={"/about"}>About pet store</NavLink>
           <NavLink to={"/contact-us"}>Contact us</NavLink>
+          <NavLink to={"/dashboard"}>My dashboard</NavLink>
         </div>
       </div>
     </nav>

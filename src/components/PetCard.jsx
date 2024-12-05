@@ -1,4 +1,5 @@
 import { Card, Tag, Button } from "antd";
+import { Link } from "react-router";
 
 const { Meta } = Card;
 
@@ -43,6 +44,10 @@ function PetCard(props) {
             >
               Adopt pet
             </Button>
+
+            <Link to={`/store/${props.petId}`}>
+              <Button block>More details</Button>
+            </Link>
           </div>
         }
       />
